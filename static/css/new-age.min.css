@@ -73,16 +73,18 @@
  }
  
  #mainNav {
-    background:  #28A745;
-    background: linear-gradient(to left, #28A745, #0099ff);
-    border-color: rgba(34, 34, 34, .05);
-    background-color: #fff;
+    /* background:  #28A745; */
+    /* background: linear-gradient(to left, #28A745, #0099ff); */
+    background-color: transparent;
     transition: all .35s;
     font-family: Catamaran, Helvetica, Arial, sans-serif;
     font-weight: 200;
     letter-spacing: 1px
  }
- 
+
+ ul {
+    list-style-type: none;
+}
  #mainNav .navbar-brand {
      color: white;
      font-family: Catamaran, Helvetica, Arial, sans-serif;
