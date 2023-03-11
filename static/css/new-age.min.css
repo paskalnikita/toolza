@@ -579,3 +579,10 @@
 a:hover{
     text-decoration: none;
 }
+
+.link{
+    display: block;
+}
+.rounded-photo{
+    border-radius: 47px;
+}
